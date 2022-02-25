@@ -1,0 +1,12 @@
+{
+    "modules": [{
+        "dir": "src/modules"
+    }, {
+        "npm": "lightning-base-components"
+    }],
+    "expose": [
+        "acuity/userAvatar",
+        "acuity/form",
+        "acuity/formDynamicField"
+    ]
+}

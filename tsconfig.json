@@ -1,0 +1,10 @@
+{
+"compilerOptions": {
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "lib": ["ES2021.String","dom"]
+},
+"include": ["src/**/*"],
+"exclude": ["node_modules", "**/*.spec.ts"]
+}

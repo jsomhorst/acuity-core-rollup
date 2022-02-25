@@ -1,0 +1,44 @@
+{
+    "name": "acuity-core",
+    "description": "Rollup TS Issue",
+    "version": "0.0.1",
+    "author": "Jeroen Somhorst",
+    "dependencies": {
+        "@lwc/synthetic-shadow": "^2.5.8",
+        "@rollup/plugin-babel": "^5.3.1",
+        "@salesforce-ux/design-system": "^2.16.2",
+        "compression": "^1.7.4",
+        "express": "^4.17.1",
+        "helmet": "^4.6.0",
+        "lightning-base-components": "^1.13.7-alpha"
+    },
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.16.7",
+        "@lwc/rollup-plugin": "^2.9.0",
+        "@rollup/plugin-replace": "^4.0.0",
+        "@rollup/plugin-typescript": "^8.3.1",
+        "@types/jest": "^27.0.2",
+        "eslint": "^8.1.0",
+        "eslint-plugin-inclusive-language": "^2.1.1",
+        "husky": "^7.0.4",
+        "lwc": "^2.9.0",
+        "prettier": "^2.4.1",
+        "rollup": "^2.68.0",
+        "rollup-plugin-livereload": "^2.0.5",
+        "rollup-plugin-serve": "^1.1.0"
+    },
+    "engines": {
+        "node": ">=10.13.0",
+        "npm": ">=6.4.1",
+        "yarn": ">=1.9.4"
+    },
+    "keywords": [
+        "lwc"
+    ],
+    "license": "MIT",
+    "repository": "Jeroen Somhorst/acuity-core",
+    "scripts": {
+        "lint": "eslint ./src/**/*.ts",
+        "watch": "rollup -w -c rollup.config.js"
+    }
+}
